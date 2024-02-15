@@ -16,7 +16,7 @@ npm install -g frames-extraction
 ## Usage
 
 ```bash
-vfec --input <input_file> [--outputPath <output_directory>] [--threshold <threshold>] [--ffmpegParameters <ffmpeg_parameters>]
+frames-extraction --input <input_file> [--outputPath <output_directory>] [--threshold <threshold>] [--ffmpegParameters <ffmpeg_parameters>]
 ```
 
 ## Installation Local
