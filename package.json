@@ -1,0 +1,20 @@
+{
+  "name": "frames-extraction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/presentation/cli.js",
+  "scripts": {
+    "start": "node src/presentation/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "resemblejs": "^5.0.0",
+    "sharp": "^0.33.2",
+    "yargs": "^17.7.2"
+  }
+}
