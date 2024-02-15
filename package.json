@@ -1,15 +1,29 @@
 {
   "name": "frames-extraction",
   "version": "1.0.0",
-  "description": "",
+  "description": "Extract frames from a video and compare them to find the most similar ones.",
   "main": "src/presentation/cli.js",
+  "bin": "src/presentation/cli.js",
   "scripts": {
-    "start": "node src/presentation/cli.js",
+    "start": "node src/presentation/cli.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "frames",
+    "extraction",
+    "video",
+    "image",
+    "comparison"
+  ],
+  "pkg": {
+    "scripts": "src/presentation/cli.js",
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "author": "Ran-j <ran-junior@hotmail.com>",
+  "license": "MIT",
   "dependencies": {
     "ffmpeg-static": "^5.2.0",
     "fluent-ffmpeg": "^2.1.2",

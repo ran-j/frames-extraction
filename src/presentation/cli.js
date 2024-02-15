@@ -6,7 +6,7 @@ async function main() {
     const argv = yargs
         .usage('Usage: $0 --input <input> [--outputPath <outputPath>] [--threshold <threshold>] [--ffmpegParameters <ffmpegParameters>]')
         .option('input', {
-            describe: 'Input parameter',
+            describe: 'Input video path',
             demandOption: true,
             type: 'string'
         })
@@ -15,7 +15,7 @@ async function main() {
             type: 'string'
         })
         .option('threshold', {
-            describe: 'Optional threshold',
+            describe: 'Optional comparison threshold (0-100)',
             type: 'number'
         })
         .option('ffmpegParameters', {
