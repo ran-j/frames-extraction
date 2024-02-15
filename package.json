@@ -5,8 +5,7 @@
   "main": "src/presentation/cli.js",
   "bin": "src/presentation/cli.js",
   "scripts": {
-    "start": "node src/presentation/cli.js", 
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/presentation/cli.js"
   },
   "keywords": [
     "frames",
@@ -15,13 +14,6 @@
     "image",
     "comparison"
   ],
-  "pkg": {
-    "scripts": "src/presentation/cli.js",
-    "targets": [
-      "node18-win-x64"
-    ],
-    "outputPath": "dist"
-  },
   "author": "Ran-j <ran-junior@hotmail.com>",
   "license": "MIT",
   "dependencies": {
