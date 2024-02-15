@@ -1,9 +1,11 @@
 {
   "name": "frames-extraction",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Extract frames from a video and compare them to find the most similar ones.",
   "main": "src/presentation/cli.js",
-  "bin": "src/presentation/cli.js",
+  "bin": {
+    "frames-extraction": "src/presentation/cli.js"
+  },
   "scripts": {
     "start": "node src/presentation/cli.js"
   },
@@ -12,7 +14,9 @@
     "extraction",
     "video",
     "image",
-    "comparison"
+    "comparison",
+    "diff",
+    "similar"
   ],
   "author": "Ran-j <ran-junior@hotmail.com>",
   "license": "MIT",

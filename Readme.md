@@ -2,7 +2,24 @@
 
 A Node.js Command Line Interface (CLI) tool for extract videos frames and compare them.
 
-## Installation
+## Features
+
+- Extract frames from video file.
+- Compare frames and generate diff image.
+
+## Installation Global
+
+```bash
+npm install -g frames-extraction
+```
+
+## Usage
+
+```bash
+vfec --input <input_file> [--outputPath <output_directory>] [--threshold <threshold>] [--ffmpegParameters <ffmpeg_parameters>]
+```
+
+## Installation Local
 
 ```bash
 npm install
