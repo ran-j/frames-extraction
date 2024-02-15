@@ -45,6 +45,6 @@ node src/presentation/cli.js --input <input_file> [--outputPath <output_director
 node src/presentation/cli.js --input mov_bbb.mp4
 ```
 
-<img src="./Diff.png">
+<img src="https://raw.githubusercontent.com/ran-j/frames-extraction/main/Diff.png">
 
 

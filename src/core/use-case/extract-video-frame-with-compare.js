@@ -48,6 +48,6 @@ module.exports = class ExtractVideoFrameWithCompareUseCase {
     await this.videoCompareRepository.compareAndRemoveDuplicates(fixedOutputPath, outputPathUnique);
 
     const diff = Date.now() - start
-    log("Process finished, it took " + (diff / 1000))
+    log("Process finished, it took " + (diff / 1000) + " seconds")
   }
 }
